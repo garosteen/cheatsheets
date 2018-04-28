@@ -6,8 +6,6 @@
 
 `$ git init`
 
-`$ git status`
-
 ### Adding files
 
 `$ git add <file>`
@@ -18,7 +16,7 @@ Add all untracked files.
 
 `$ git add .`
 
-Same effect, adds the current directory
+Same effect; add the current directory
 
 ### Committing ###
 
@@ -26,7 +24,7 @@ Same effect, adds the current directory
 
 `-a`
 
-commit all changes to existing files (but does not add new files)
+Commit all changes to existing files (but does not add new files)
 
 `--amend`
 
@@ -40,7 +38,7 @@ Alter last commit message
 
 `-u`
 
-sets GitHub as upstream repository (download changes automatically with pull)
+Set GitHub as upstream repository (download changes automatically with pull).
 
 
 ## Getting Information
@@ -51,11 +49,11 @@ sets GitHub as upstream repository (download changes automatically with pull)
 
 `$ git diff`
 
-shows diff between last commit and unstaged changes in current project.
+Show diff between last commit and unstaged changes in current project.
 
 `--staged`
 
-Show diff between last commit and staged changes
+Show diff between last commit and staged changes.
 
 `$ git show <SHA>`
 
@@ -69,10 +67,3 @@ Show diff between last commit and staged changes
 
 Change origin URL:
 `$ git remote set-url origin git@github.com:User/project-name.git`
-
-------------------------------------------------------------
-`git add -A`
-
-Add all files or directories to staging area
-
-`git add <name>`
