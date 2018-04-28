@@ -20,7 +20,8 @@ Same effect; add the current directory
 
 ### Committing ###
 
----|---
+Code|Definition
+----|----
 `$ git commit`|Commit
 `-m "message"`|Add commit message
 `-a`|Commit all changes to tracked files (does not add new files)
