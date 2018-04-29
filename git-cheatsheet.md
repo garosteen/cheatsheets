@@ -4,20 +4,20 @@
 
 ### Initializing Repository
 
-    * `git init` - Initialize the current directory into a git repo.
+* `git init` - Initialize the current directory into a git repo.
 
 ### Adding files
 
-    * `git add <file>` - Add file to staging area
-    * `git add -A`
-    * `git add .` -  Add all untracked files
+* `git add <file>` - Add file to staging area
+* `git add -A`
+* `git add .` -  Add all untracked files
 
 ### Committing ###
 
-    * `git commit` - Commit
-    * `-m "message"` - Add commit message
-    * `-a` - Commit all changes to tracked files (does not add new files)
-    * `--amend` - Alter last commit message
+* `git commit` - Commit
+* `-m "message"` - Add commit message
+* `-a` - Commit all changes to tracked files (does not add new files)
+* `--amend` - Alter last commit message
 
 ### Pushing ###
 
