@@ -4,64 +4,45 @@
 
 ### Initializing Repository
 
-`$ git init`
+Command|Description
+-------|-----------
+`git init`|Initialize the current directory into a git repo.
 
 ### Adding files
 
-`$ git add <file>`
-
-`$ git add -A`
-
-Add all untracked files.
-
-`$ git add .`
-
-Same effect; add the current directory
+Command|Description
+-------|-----------
+`git add <file>`|Add file to staging area
+`git add -A`
+`git add .`| Add all untracked files
 
 ### Committing ###
 
 Command|Description
-----|----
-`$ git commit`|Commit
+-------|-----------
+`git commit`|Commit
 `-m "message"`|Add commit message
 `-a`|Commit all changes to tracked files (does not add new files)
-
-`$ git commit -m "message"`
-
-`-a`
-
-Commit all changes to existing files (but does not add new files)
-
-`--amend`
-
-Alter last commit message
+`--amend`| Alter last commit message
 
 ### Pushing ###
 
-`$ git remote add origin <URL>`
-
-`$ git push -u origin master`
-
-`-u`
-
-Set GitHub as upstream repository (download changes automatically with pull).
+Command|Description
+-------|-----------
+`git remote add origin <URL>`|
+`git push -u origin master`|
+`-u`|Set GitHub as upstream repository (download changes automatically with pull).
 
 
 ## Getting Information
 
-`$ git status`
-
-`$ git log`
-
-`$ git diff`
-
-Show diff between last commit and unstaged changes in current project.
-
-`--staged`
-
-Show diff between last commit and staged changes.
-
-`$ git show <SHA>`
+Command|Description
+-------|-----------
+`git status`|
+`git log`|
+`git diff`|Show diff between last commit and unstaged changes in current project.
+`--staged`|Show diff between last commit and staged changes.
+`git show <SHA>`|
 
 ## Initial Configurations
 
