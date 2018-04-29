@@ -46,11 +46,13 @@ Command|Description
 
 ## Initial Configurations
 
-`$ git config --global user.name "Your Name"`
-
-`$ git config --global user.email your.email@example.com`
+Command|Description
+-------|-----------
+`git config --global user.name "Your Name"`|Set global name variable
+`git config --global user.email your.email@example.com`|Set global email variable
 
 ## Miscellaneous Commands
 
-Change origin URL:
-`$ git remote set-url origin git@github.com:User/project-name.git`
+Command|Description
+-------|-----------
+`$ git remote set-url origin git@github.com:User/project-name.git`|Change origin URL
