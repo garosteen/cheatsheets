@@ -5,6 +5,8 @@
 ### Initializing Repository ###
 
 * `git init` - Initialize the current directory into a git repo.
+* `git clone <URL>` - Clone an existing repository into a directory named after the repository
+  * `git clone <URL> <directory>` - Clone into a different directory
 
 ### Adding files ###
 
