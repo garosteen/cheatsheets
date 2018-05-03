@@ -4,5 +4,5 @@
 
 ## macOS Commands ##
 
-* `Command+` ` - Cycle app windows in same space
+* ``Command+` `` - Cycle app windows in same space
 * `⌘ <tab>` - Cycle applications
