@@ -22,6 +22,7 @@ If you're looking for the basics, they might not be here.
 * `gg` - beginning of file
 
 * `%` - move cursor to matching bracket
+* `*`, `#` - move to next/previous occurence of word under cursor
 
 * `ctl-b` - back one page
 * `ctl-f` - forward one page
@@ -72,6 +73,8 @@ See `:help ins-special-keys` for more info
 * `CTRL-a` - Increment number at (end of) word under cursor
 * `CTRL-x` - Decrement number at (end of) word under cursor
 
+* `gU`, `gu` - Change case (upper/lower)
+* `~` - Change case of character under cursor and move right one character
 # SETTINGS #
 
 * `:set number` - turn on line numbers
