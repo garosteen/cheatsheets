@@ -4,5 +4,6 @@
 
 ## macOS Commands ##
 
-* ``⌘` `` - Cycle app windows in same space
-* `⌘ <tab>` - Cycle applications
+* ``⌘` ``, `Command+Backtick` - Cycle app windows in same space
+* `⌘⇥`, `Command+Tab` - Cycle applications
+    
