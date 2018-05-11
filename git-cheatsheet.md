@@ -30,6 +30,7 @@
 ### Branches ###
 
 * `git branch` - View current branches
+  * `-a` - View all branches (including those associated with remote origin)
 * `git checkout <branch>` - Check out a branch
   * `-b` - Create new branch
   * `-d` - Delete branch (if merged)
@@ -39,6 +40,7 @@
 
 * `git status`
 * `git log`
+  * `--oneline` - Keep it to one line per commit
 * `git diff` - Show diff between last commit and unstaged changes in current project.
   * `--staged` - Show diff between last commit and staged changes.
 * `git show <SHA>`
