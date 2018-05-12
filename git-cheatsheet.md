@@ -41,6 +41,8 @@
 * `git status`
 * `git log`
   * `--oneline` - Keep it to one line per commit
+  * `--graph` - Show a little graph on the side
+  
 * `git diff` - Show diff between last commit and unstaged changes in current project.
   * `--staged` - Show diff between last commit and staged changes.
 * `git show <SHA>`
@@ -53,3 +55,5 @@
 ## Miscellaneous Commands ##
 
 * `$ git remote set-url origin git@github.com:User/project-name.git` - Change origin URL
+* `git config --global alias.name-of-alias "command to run" - Set a git alias
+  * e.g. `git config --global alias.graph "log --graph --oneline --decorate"
