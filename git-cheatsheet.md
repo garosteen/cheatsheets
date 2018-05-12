@@ -55,5 +55,5 @@
 ## Miscellaneous Commands ##
 
 * `$ git remote set-url origin git@github.com:User/project-name.git` - Change origin URL
-* `git config --global alias.name-of-alias "command to run" - Set a git alias
-  * e.g. `git config --global alias.graph "log --graph --oneline --decorate"
+* `git config --global alias.name-of-alias "command to run"` - Set a git alias
+  * e.g. `git config --global alias.graph "log --graph --oneline --decorate"`
