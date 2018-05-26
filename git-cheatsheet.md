@@ -46,6 +46,7 @@
 * `git diff` - Show diff between last commit and unstaged changes in current project.
   * `--staged` - Show diff between last commit and staged changes.
 * `git show <SHA>`
+* `git remote -v` - Show URL of remote branch
 
 ## Initial Configurations ##
 
