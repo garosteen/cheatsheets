@@ -26,7 +26,7 @@
 * `git remote add origin <URL>`
 * `git push -u origin master`
   * `-u` - Set GitHub as upstream repository (download changes automatically with pull).
-
+  * `-f` - Force the push
 ### Branches ###
 
 * `git branch` - View current branches

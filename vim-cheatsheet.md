@@ -49,8 +49,11 @@ If you're looking for the basics, they might not be here.
 * `CTRL-v <tab>` - insert a hard tab, even if it would normally be converted to spaces
 * `CTRL-n` - Find next keyword (autocomplete) 
 * `CTRL-p` - Find previous keyword (autocomplete)
+* `CTRL-r`+`"` - Paste from default register (Works on command line as well!)
+  * + `CTRL-w` - Pastes the word under the cursor
 
 See `:help ins-special-keys` for more info
+
 
 ## Going into insert mode ##
 * `a` - append AFTER cursor. (insert mode)
@@ -75,6 +78,16 @@ See `:help ins-special-keys` for more info
 
 * `gU`, `gu` - Change case (upper/lower)
 * `~` - Change case of character under cursor and move right one character
+
+## Finding ##
+
+* `:vim[grep][!] /{pattern}/[g][j] {file} ...` - Search within files. Populates the quickfix list, shared between all windows.
+  * `[g]` - Match all searches, not just one per line
+  * `[j]` - Do not jump to first match automatically
+  * `:lvimgrep` - Populate the location list instead, local to the current window.
+* `:cw` or `:copen` - Open the quickfix list
+  * `:colder`, `:lolder`, `:cnewer`, `lnewer` - Show older/newer searches for quickfix/location list.
+* `:lw` or `:lopen` - Open the location list
 # SETTINGS #
 
 * `:set number` - turn on line numbers
@@ -82,4 +95,5 @@ See `:help ins-special-keys` for more info
 
 * `:syntax on` - turn on syntax highlighting
 * `:syntax off` - turn off syntax highlighting
+
 
