@@ -4,11 +4,9 @@ If you're looking for the basics, they might not be here.
 
 # NAVIGATION
 
-* `+`	- down - to first non-whitespace character
-* `-` - up - to first non-whitespace character
+* `+` / `-`	- up/down - to first non-whitespace character
 
-* `w` - to beginning of next word
-* `b`	- to beginning of previous word 
+* `w` / `b` - to beginning of next/previous word
 
 * `e` - to end of next word
 
@@ -17,8 +15,7 @@ If you're looking for the basics, they might not be here.
 * `H` -  Top of page
 
 * `G` - end of file
-* `10G` - 10th line
-* `:10` - 10th line
+* `10G`, `:10` - 10th line
 * `gg` - beginning of file
 
 * `%` - move cursor to matching bracket
@@ -26,8 +23,7 @@ If you're looking for the basics, they might not be here.
 
 * `ctl-b` - back one page
 * `ctl-f` - forward one page
-* `0` - move cursor to beginning of line
-* `$` - move cursor to end of line
+* `0` / `$` - move cursor to beginning/end of line
 
 ## Folding ##
 
@@ -45,7 +41,6 @@ If you're looking for the basics, they might not be here.
 * `CTRL-w` - delete back to beginning of previous word
 * `CTRL-t` - indent current line
 * `CTRL-d` - de-indent current line
-(These two commands are GAME-CHANGING!!)
 * `CTRL-v <tab>` - insert a hard tab, even if it would normally be converted to spaces
 * `CTRL-n` - Find next keyword (autocomplete) 
 * `CTRL-p` - Find previous keyword (autocomplete)
