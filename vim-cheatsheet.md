@@ -38,10 +38,13 @@ If you're looking for the basics, they might not be here.
 
 ## Insert mode commands ##
 
+* `CTRL-o` - exit insert mode for a single command, then go back to insert mode.
 * `CTRL-w` - delete back to beginning of previous word
 * `CTRL-t` - indent current line
 * `CTRL-d` - de-indent current line
-* `CTRL-v <tab>` - insert a hard tab, even if it would normally be converted to spaces
+* `CTRL-v`
+  * +`<tab>` - insert a hard tab, even if it would normally be converted to spaces
+  * +`u0000` - insert unicode character
 * `CTRL-n` - Find next keyword (autocomplete) 
 * `CTRL-p` - Find previous keyword (autocomplete)
 * `CTRL-r`+`"` - Paste from default register (Works on command line as well!)
