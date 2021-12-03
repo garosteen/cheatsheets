@@ -13,6 +13,7 @@
 * `git add <file>` - Add file to staging area
 * `git add -A`
 * `git add .` -  Add all untracked files
+* `git add -u` - Add all tracked files (modified and removed), i.e. don't add untracked files
 
 ### Committing ###
 
